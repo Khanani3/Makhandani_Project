@@ -1,0 +1,31 @@
+:root{
+  --bg:#f7f9f5;
+  --surface:#fff;
+  --ink:#14211a;
+  --mutted:#55645b;
+  --line#dfe6dc;
+  --dark:#0b5d3b;
+  --leaf:#43a047;
+  --gold:#f4bb00;
+--head: "Fraunces",Georgia,serif;
+--body:"Inter",system-ui,sans-serif;
+
+box-sizing:border-box;
+padding-top:env(safe-area-inset-top,0px);
+padding-bottom:env(safe-area-inset-bottom,0px);
+color-scheme:light;
+}
+/*Dark mode*/
+@media (prefes-color-schem: dark)
+{
+  :root:not([data-theme="light"]) 
+  { 
+    --bg:#0d1511;
+    --surface:#142019;
+    --ink:#eef4ee;
+    --muted:#a2b2a7;
+    --line:#25362c;
+
+  color-scheme: dark;
+  }
+}
