@@ -108,3 +108,5 @@ footer{padding:24px 0;text-align:center;font-size:14px;color:var(--muted)}
 .cap{position:absolute;left:16px;bottom:16px;background:rgba(11,93,59,.92);color:#fff;font-weight:600;font-size:14px;padding:6px 14px;border-radius:99px}
 .shot img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;display:block}
 @media(prefers-reduced-motion:reduce){.slides img{transition:none;transform:none}}
+.logo svg{width:auto;height:46px}
+@media(max-width:380px){.logo svg{height:40px}}
